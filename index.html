@@ -10,18 +10,21 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Outfit&family=Roboto&display=swap" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
-      <header>
-        <img src="./src/img/pokebola.png" alt="pokebola" width="30px">
-        <h1>Pokemon</h1>
+      <header class="cabecalho">
+        <img  class="pokebola" src="./src/img/pokebola.png" alt="pokebola" >
+        <h1 class="titulo">Pokemon</h1>
       </header>
       
-      <main>
+      <main class="slider-pokemon">
         <button>
           <img src="src/img/seta.png" alt="seta-voltar">
         </button>
-        <ul>
+        <ul class="lista-pokemons">
           <li>
               <div>
                   <h2>Pikachu</h2>
@@ -36,7 +39,9 @@
                   </p>
               </div>
           </li>
-          <li>
+
+
+          <!--<li>
             <div>
               <h2>charizard</h2>
               <p>HP 800</p>
@@ -50,6 +55,8 @@
               </p>
           </div>
           </li>
+
+
           <li>
             <div>
               <h2>Mewtwo</h2>
@@ -63,8 +70,12 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum odio, delectus natus reprehenderit est quae. Deserunt nostrum maxime vitae exercitationem minima quidem ut nam vero.
               </p>
           </div>
-          </li>
+          </li>-->
+
+
         </ul>
+
+
         <button>
           <img src="src/img/seta.png" alt="seta-avancar">
         </button>
